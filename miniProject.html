@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Cake Recipe</title>
+    <link rel="stylesheet" href="miniProject.css">
+</head>
+<body>
+    <div class="recipe-card">
+        <h1 class="recipe-title">Chocolate Cake</h1>
+        
+        <div class="recipe-header">
+            <img src="https://i.pinimg.com/736x/e1/44/27/e144272d937923468c4d9a2171309abf.jpg" alt="Chocolate Cake" class="recipe-image">
+            <div class="recipe-details">
+                <div class="prep-time">
+                    <h3>Preparation Time</h3>
+                    <p>45 minutes</p>
+                </div>
+                <div class="servings">
+                    <h3>Serving Size</h3>
+                    <p>8 people</p>
+                </div>
+                <button class="toggle-btn" id="toggleIngredients">Show Ingredients</button>
+            </div>
+        </div>
+
+        <div class="ingredients hidden" id="ingredientsSection">
+            <h2>Ingredients</h2>
+            <ul class="ingredients-list">
+                <li>1 ¾ cups all-purpose flour</li>
+                <li>¾ cup cocoa powder</li>
+                <li>2 cups sugar</li>
+                <li>1 ½ tsp baking powder</li>
+                <li>1 ½ tsp baking soda</li>
+                <li>1 tsp salt</li>
+                <li>2 eggs</li>
+                <li>1 cup milk</li>
+                <li>½ cup vegetable oil</li>
+                <li>2 tsp vanilla extract</li>
+                <li>1 cup boiling water</li>
+            </ul>
+        </div>
+
+        <div class="steps-container">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <button class="cooking-btn" id="startCooking">Start Cooking</button>
+            <button class="cooking-btn hidden" id="nextStep">Next Step</button>
+            
+            <div class="steps">
+                <div class="step">1. Preheat oven to 350°F (175°C)</div>
+                <div class="step">2. Grease and flour two cake pans</div>
+                <div class="step">3. Mix dry ingredients in a large bowl</div>
+                <div class="step">4. Add eggs, milk, oil, and vanilla</div>
+                <div class="step">5. Stir in boiling water</div>
+                <div class="step">6. Pour batter into pans and bake 30-35 minutes</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="miniProject.js"></script>
+</body>
+</html>
