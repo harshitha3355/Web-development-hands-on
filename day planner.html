@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Planner</title>
+    <link rel="stylesheet" href="day planner.css">
+    <script defer src="day planner.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Day Planner</h1>
+        <div id="task-list"></div>
+        <div class="task-input">
+            <input type="time" id="task-time">
+            <input type="text" id="task-text" placeholder="Enter task">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+    </div>
+    <button onclick="clearAllTasks()">Clear All Tasks</button>
+
+</body>
+</html>
